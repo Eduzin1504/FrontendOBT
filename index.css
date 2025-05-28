@@ -21,15 +21,15 @@
 .tv1image55098621 {
   top: -40px;
   left: 0px;
-  width: 1280px;
-  height: 853px;
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
  
 .tv1-rectangle2 {
   top: 0px;
   left: 0px;
-  width: 1280px;
+  width: 100%;
   height: 720px;
   position: absolute;
 }
@@ -1081,7 +1081,7 @@
 .tv1-rectangle1 {
   top: 0px;
   left: 0px;
-  width: 1280px;
+  width: 100%;
   height: 64px;
   position: absolute;
 }
@@ -1108,6 +1108,7 @@
  
 .tv1-group1 {
   top: 4px;
+  padding: 4px 2em;
   left: 10px;
   width: 264px;
   height: 24px;
@@ -1184,31 +1185,37 @@
   border-radius: 6px 0 0 6px;
 }
  
-.tv1-rectangle7 {
-  top: 0px;
-  left: 43px;
+.rectangle-7 {
+  box-sizing: border-box;
+  position: absolute;
   width: 44px;
   height: 38px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 1);
+  left: 571px;
+  top: 640px;
+  background: #475569;
+  border-right: 1px solid #FFFFFF;
 }
  
-.tv1-rectangle11 {
-  top: 0px;
-  left: 87px;
+.rectangle-11 {
+  box-sizing: border-box;
+  position: absolute;
   width: 43px;
   height: 38px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 1);
+  left: 615px;
+  top: 640px;
+  background: #475569;
+  border-right: 1px solid #FFFFFF;
 }
- 
-.tv1-rectangle12 {
-  top: 0px;
-  left: 130px;
+
+.rectangle-12 {
+  box-sizing: border-box;
+  position: absolute;
   width: 44px;
   height: 38px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 1);
+  left: 658px;
+  top: 640px;
+  background: #475569;
+  border-right: 1px solid #FFFFFF;
 }
  
 .tv1-materialsymbolsarrowbackios1 {
@@ -1258,3 +1265,4 @@
 .tv1-text38 {
   text-decoration: NONE;
 }
+
